@@ -5,6 +5,9 @@
     "lib": ["es2019"],
     "module": "commonjs",
     "outDir": "dist",
+    "paths": {
+      "helpers/*": ["./src/helpers/*"]
+    },
     "rootDir": "src",
     "sourceMap": true,
     "strict": true,

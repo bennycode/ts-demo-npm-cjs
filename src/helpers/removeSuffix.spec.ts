@@ -1,5 +1,5 @@
 import { strict as assert } from "assert";
-import { removeSuffix } from ".";
+import { removeSuffix } from "./removeSuffix";
 
 test("removeSuffix()", () => {
   assert.equal(removeSuffix("myfile.txt", ".txt"), "myfile");
