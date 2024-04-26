@@ -6,7 +6,9 @@
     "module": "commonjs",
     "outDir": "dist",
     "paths": {
-      "helpers/*": ["./src/helpers/*"]
+      "~/*": ["./src/*"],
+      "helpers/*": ["./src/helpers/*"],
+      "zeta": []
     },
     "rootDir": "src",
     "sourceMap": true,
