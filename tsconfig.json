@@ -8,7 +8,7 @@
     "paths": {
       "~/*": ["./src/*"],
       "helpers/*": ["./src/helpers/*"],
-      "zeta": []
+      "@helpers/*": ["./src/helpers/*"]
     },
     "rootDir": "src",
     "sourceMap": true,
